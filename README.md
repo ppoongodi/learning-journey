@@ -1,96 +1,43 @@
-# ai-learning-journey
-My hands-on journey learning AI, LLMs, prompt engineering, AI agents, automation and practical engineering applications.
+# My Technical Learning Journey 🚀
 
-## **OpenCode + Google Gemini Setup**
+Welcome to my hands-on technical learning journey!
 
-Follow these steps to install OpenCode, connect Google Gemini, and start analysing a project.
+This repository documents my continuous learning, practical experiments, technical notes, commands, code examples and projects across different engineering domains.
 
-**1. Install Node.js**
+My focus is on expanding my knowledge in AI, automation, databases, cloud technologies and modern software engineering.
 
-Download and install the LTS version of Node.js from: [https://nodejs.org/](https://nodejs.org/?utm_source=chatgpt.com)
+## 📚 Learning Topics
 
-**2. Verify Node.js and npm installation**
+| Topic | Description |
+|---|---|
+| [AI Learning](./ai-learning/README.md) | LLMs, AI tools, OpenCode, Gemini, prompt engineering and AI agents |
+| [Database Notes](./database-notes/README.md) | SQL queries, database concepts and interview questions |
+| [Playwright](./playwright/README.md) | Playwright, TypeScript and automation testing |
+| [Automation](./automation/README.md) | Test automation frameworks and best practices |
+| [DevOps & Cloud](./devops-cloud/README.md) | AWS, CI/CD, Docker and cloud infrastructure |
+ 
+## 🛠️ Practical Projects
 
-```
-node --version
-npm --version
-```
+A collection of small projects and experiments built while learning new technologies.
 
-**3. Install OpenCode**
+## 🎯 Learning Goals
 
-```
-npm.cmd install -g opencode-ai
-```
+- Explore AI tools, LLMs and AI agents.
+- Learn prompt engineering and AI-assisted development.
+- Build practical automation solutions.
+- Strengthen SQL and database knowledge.
+- Explore modern testing frameworks.
+- Understand cloud infrastructure and DevOps practices.
+- Apply AI to real-world software engineering and quality challenges.
 
-**4. Verify OpenCode installation**
+## 📌 Learning Approach
 
-```
-opencode --version
-```
+- Document what I learn.
+- Maintain useful commands and code snippets.
+- Build small hands-on projects.
+- Capture practical examples and interview questions.
+- Continuously improve through experimentation.
 
-**5. Launch OpenCode**
+---
 
-```
-opencode
-```
-
-**6. Connect Google Gemini**
-
-- Visit [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey?utm_source=chatgpt.com)
-- Sign in and create a Google Gemini API key.
-- Copy the API key.
-- In OpenCode, execute `/connect`.
-- Select Google and provide your API key.
-
-**7. Select an AI model**
-
-```
-/models
-```
-
-Choose a text-based Gemini Flash model for regular code analysis and development tasks. Gemini 3.8 Flash
-
-**8. Exit OpenCode**
-
-```
-/exit
-```
-
-**9. Navigate to your GitHub project**
-
-Replace the path with your actual project folder.
-
-```
-cd path\to\lendingmanagement-ops
-```
-
-**10. Launch OpenCode inside the project**
-
-```
-opencode
-```
-
-**11. Start the Career-Ops workflow**
-
-```
-/lendingmanagement-ops
-```
-
-**12. Change OpenCode mode**
-
-Press `Tab` to switch between modes:
-
-- **Plan mode:** Analyse the project and suggest changes without implementing them.
-- **Build mode:** Implement changes and modify project files.
-
-**13. Start analysing your project**
-
-Example prompt:
-
-```
-Analyse the project structure, understand the existing workflows,
-identify the important modules, and explain how the application works.
-Do not modify any files.
-```
-
-This gives someone following your GitHub documentation a complete setup-to-first-analysis walkthrough.
+**Learning by doing. Building by experimenting. Growing every day.**
