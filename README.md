@@ -48,7 +48,7 @@ opencode
 /models
 ```
 
-Choose a text-based Gemini Flash model for regular code analysis and development tasks. Gemini Flash 3.8
+Choose a text-based Gemini Flash model for regular code analysis and development tasks. Gemini 3.8 Flash
 
 **8. Exit OpenCode**
 
